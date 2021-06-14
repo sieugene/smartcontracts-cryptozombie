@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "truffle compile"
+    "build": "truffle compile",
+    "rinkeby:migrate": "truffle migrate --network rinkeby",
+    "mainnet:migrate": "truffle migrate --network mainnet"
   },
   "author": "sieugene",
   "license": "ISC",
